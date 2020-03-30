@@ -1,14 +1,22 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "parameterId": 1,
+    "parameterName": "SEAM COMPRESSION",
+    "parameterUOM": "%"
+  },
+  {
+    "parameterId": 2,
+    "parameterName": "POLY FLOW",
+    "parameterUOM": "MM"
+  }, 
+  {
+    "parameterId": 3,
+    "parameterName": "SIDE SEAL OVERLAP",
+    "parameterUOM": "MM"
+  },
+  {
+    "parameterId": 4,
+    "parameterName": "BURST STRENGTH",
+    "parameterUOM": "BAR"
   }
-}
+]
